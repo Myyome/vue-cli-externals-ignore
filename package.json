@@ -1,0 +1,36 @@
+{
+    "name": "vue-cli-externals-ignore",
+    "version": "1.0.0",
+    "description": "Easily exclude node_modules in vuecli bundle",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Myyome/vue-cli-externals-ignore.git"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "eslint": "^7.7.0",
+        "eslint-plugin-import": "^2.22.0"
+    },
+    "keywords": [
+        "vue-cli",
+        "node_modules",
+        "externals"
+    ],
+    "author": {
+        "name": "Myyome",
+        "url": "https://github.com/Myyome"
+    },
+    "files": [
+        "README.md",
+        "index.js",
+        "utils.js"
+    ],
+    "bugs": {
+        "url": "https://github.com/Myyome/vue-cli-externals-ignore/issues"
+    },
+    "engines": {
+        "node": ">=6"
+    },
+    "homepage": "https://github.com/Myyome/vue-cli-externals-ignore"
+}
