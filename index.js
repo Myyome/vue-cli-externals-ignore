@@ -58,7 +58,12 @@ module.exports = function nodeExternals(options) {
 
     const result = {};
     nodeModules.forEach((item) => {
-        result[item] = `${item}`;
+        if (allowlist.findIndex((allow) => allow === item) === -1) {
+            result[item] = {
+                commonjs: item,
+                amd: item,
+            };
+        }
     });
     return result;
 };
